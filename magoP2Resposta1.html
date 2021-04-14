@@ -7,23 +7,23 @@
             <link rel="stylesheet" href="estilo/personagens.css">
             <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         </head>
-        <body class="bggameover">
+        <body class="bgmagocenaend">
             <header>
             </header>
             <main>
                 <section class="texto">
                     <div class="boxPapel">
-                    <img src="guerreiro/gp1gameover.png" class="papel">
+                    <img src="mago/gp2r1.png" class="papel">
                     </div>
                 </section>
             </main>
             <script>
-                setTimeout(function(){alert("comece novamente")
+                setTimeout(function(){alert("Final Do Jogo. Obrigado por Jogar")
                     while(true){ 
-                            var escolha = prompt(" digite:(1) para recomeçar" + "\n" + " digite:(2) para escolher outro personagem" )
+                            var escolha = prompt(" digite:(1) para jogar novamente" + "\n" + " digite:(2) para jogar com outro personagem" )
                             if(escolha == 1){
                                 document.write(location.assign("personagens.css"))
-                                document.write(location.assign("guerreiroHistoria.html"))
+                                document.write(location.assign("magoHistoria.html"))
                                 break
                             }
                             else if(escolha == 2){

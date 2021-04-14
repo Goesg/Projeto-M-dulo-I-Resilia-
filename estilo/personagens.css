@@ -1,14 +1,6 @@
-
+/* !!! cenas e imagens relacionadas ao guerreiro !!! */
 .bgGuerreirocena1{
-  background-image: url("cenaGuerreiro1.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.bgGuerreirocena2{
-  background-image: url("cenaGuerreiro2");
+  background-image: url("guerreiroCena1.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +8,7 @@
 }
 
 .bgGuerreirocena3{
-  background-image: url("cenah2.jpg");
+  background-image: url("guerreiroCena2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,12 +16,76 @@
 }
 
 .bgGuerreirocenaend{
-  background-image: url("cccccc.jpg");
+  background-image: url("guerreiroCenaFinal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+
+.bggameover{
+  background-image: url("gameover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* !!! cenas e imagens relacionadas ao guerreiro !!! */
+
+
+
+/* !!! cenas e imagens relacionadas a Bruxa !!! */
+.bgBruxairocena1{
+  background-image: url("guerreiroCena1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgBruxacena3{
+  background-image: url("guerreiroCena2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgBruxacenaend{
+  background-image: url("guerreiroCenaFinal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* !!!cenas e imagens relacionadas a Bruxa!!!*/
+
+
+
+/*!!! cenas e imagens relacionadas ao Mago!!!*/
+.bgMagocena1{
+  background-image: url("guerreiroCena1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgMagocena3{
+  background-image: url("guerreiroCena2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgMagocenaend{
+  background-image: url("guerreiroCenaFinal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*!!! cenas e imagens relacionadas ao Mago!!!*/
 
 
 .texto{

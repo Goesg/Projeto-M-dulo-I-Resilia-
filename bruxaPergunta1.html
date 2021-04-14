@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <title>Guerreiro</title>
+            <link rel="stylesheet" href="estilo/reset.css">
+            <link rel="stylesheet" href="estilo/personagens.css">
+            <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        </head>
+        <body class="bgbruxacena1">
+            <header>
+            </header>
+            <main>
+                <section class="texto">
+                    <div class="boxPapel">
+                    <img src="bruxa/gp1.png" class="papel">
+                    </div>
+                </section>
+            </main>
+            <script>
+                    setTimeout(function(){alert("comece suas escolhas")
+                        while(true){ 
+                                var escolha = prompt(" digite:(1) para entrar no vilarejo" + "\n" + " digite:(2) para seguir viagem" )
+                                if(escolha == 1){
+                                    document.write(location.assign("gameOver.css"))
+                                    document.write(location.assign("bruxaP1Resposta1.html"))
+                                    break
+                                }
+                                else if(escolha == 2){
+                                    document.write(location.assign("personagens.css"))
+                                    document.write(location.assign("guerreiroP1Resposta2.html"))
+                                    break;
+                                }
+
+                                else{
+                                    alert("escolha uma das opções!!!")
+                                }
+                        }
+                      },2000); 
+            </script>
+        </body>
+    </html>
