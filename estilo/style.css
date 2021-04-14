@@ -1,0 +1,71 @@
+header{
+    background: black;
+    height: 12em;   
+}
+
+body{
+    background-color: rgba(17, 16, 16, 0.979);
+}
+
+.escolha .caixa{
+    background-color: rgba(68, 2, 2, 0.87);
+    padding: 0.2em;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    border-radius: 26px;
+     
+    
+}
+.titulo {
+    font-size: 1.6em;
+    letter-spacing: 0.2em;
+    font-family: Permanent Marker, cursive;
+    color: rgba(251, 251, 251, 0.931);
+}
+
+.personagens .caixa{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.nome{
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    font-family: Permanent Marker, cursive;
+    color: rgba(219, 34, 9, 0.979);
+    border: solid 1px crimson;
+    border-radius: 5px;
+}
+
+.imagem{
+    width: 56.88%;
+    background-image: url("cenario.gif");
+    border-radius: 6px;
+}
+
+.texto{
+    width: 100%;
+    font-size: 0.93em;
+    font-family: Permanent Marker, cursive;
+    color: rgba(251, 251, 251, 0.931);
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+
+.personagemCard{
+ width: 30%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border: solid 1px crimson;
+ border-radius: 16px;
+
+}
+
+
+    

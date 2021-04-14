@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <title>jogo diego</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="estilo/style.css">
+            <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        </head>
+        <body class="bg">
+            <header>
+                    
+            </header>
+            <main>
+               <section class="escolha">
+                    <div class="caixa">
+                        <h1 class="titulo">Escolha o seu personagem</h1>
+                    </div>
+                </section>
+                <section class="personagens">
+                    <div class="caixa">
+                        <div class="personagemCard">
+                            <h2 class="nome">Geralt</h2>
+                            <img class="imagem" src="guerreiro.png">                           
+                            <p class="texto">
+                                Geralt, nascido em Resília. 
+                                Perdeu sua família para um mestre de magia negra chamado Java quando tinha 10 anos. 
+                                Ao atingir a maioridade, Geralt se tornou um guerreiro de Resília e só pensa em se vingar.
+                            </p>
+                        </div>
+                        <div class="personagemCard">
+                            <h2 class="nome">Harold</h2>
+                            <img class="imagem" src="Mago.png">                           
+                            <p class="texto">  
+                                 nascido em um pequeno vilarejo ao norte de Resília.
+                                 Nasceu com o dom da magia, porém o seu vilarejo não abriga ninguém capaz de ensiná-lo controlar sua magia,
+                                 por isso Harold aspira se mudar para a cidade e trabalhar para conseguir um professor que possa ajudá-lo.
+                            </p>
+                        </div>
+                        <div class="personagemCard">
+                            <h2 class="nome">Scarlet</h2>
+                            <img class="imagem" src="Bruxa.png">                           
+                            <p class="texto">
+                                Apesar de ter nascido de pais humanos, 
+                                Scarlet é uma bruxa muito poderosa e atualmente está refugiada em Resília 
+                                com o objetivo de formar uma sociedade.
+                            </p>
+                </section>
+            </main>
+            <script>
+                    setTimeout(function(){
+                        while(true){ 
+                                var escolha = prompt(" digite:(1) para o Geralt" + "\n" + " digite:(2) para Harold" + "\n" + 
+                                "digite:(3) para Scarlet")
+                                if(escolha == 1){
+                                    document.write(location.assign("personagens.css"))
+                                    document.write(location.assign("guerreiroHistoria.html"))
+                                    break
+                                }
+                                else if(escolha == 2){
+                                    document.write(location.assign("personagens.css"))
+                                    document.write(location.assign("guerreiroHistoria.html"))
+                                    break;
+                                }
+
+                                else if(escolha == 3){
+                                    document.write(location.assign("guerreiro.css"))
+                                    document.write(location.assign("guerreiroP1Resposta1.html"))
+                                    break
+                                }
+                         }
+                      },2000); 
+            </script>
+        </body>
+    </html>
