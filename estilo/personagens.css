@@ -1,11 +1,36 @@
 
-.bg{
+.bgGuerreirocena1{
   background-image: url("cenaGuerreiro1.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+
+.bgGuerreirocena2{
+  background-image: url("cenaGuerreiro2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgGuerreirocena3{
+  background-image: url("cenah2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgGuerreirocenaend{
+  background-image: url("cccccc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 
 .texto{
   width: 33.5%;

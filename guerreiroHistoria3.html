@@ -7,27 +7,24 @@
             <link rel="stylesheet" href="estilo/personagens.css">
             <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         </head>
-        <body class="bgGuerreirocena1">
+        <body class="bgGuerreirocenaend">
             <header>
             </header>
             <main>
                 <section class="texto">
                     <div class="boxPapel">
-                    <img src="guerreiro/gH.png" class="papel">
+                    <img src="guerreiro/gH3.png" class="papel">
                     </div>
                 </section>
             </main>
             <script>
                  setTimeout(function(){
-                    
-                    alert("OK para prosseguir")
-                    alert("esta é uma pequena fala de nosso personagem" + "\n" + "daqui em diante você decidira as escolhas de Geralt")
                     while(true){
                         var confirma = parseInt(prompt("digite um número para continuar"))
                     
                         if( confirma >= 0){
                             document.write(location.assign("personagens.css"));
-                            document.write(location.assign("guerreiroPergunta1.html"));
+                            document.write(location.assign("guerreiroPergunta2.html"));
                             break;
                         }
                         else{
