@@ -42,9 +42,21 @@ body{
     border-radius: 5px;
 }
 
-.imagem{
+.gimagem{
     width: 56.88%;
     background-image: url("guerreiroCena1.gif");
+    border-radius: 6px;
+}
+
+.bimagem{
+    width: 56.88%;
+    background-image: url("bruxacena11.gif");
+    border-radius: 6px;
+}
+
+.mimagem{
+    width: 56.88%;
+    background-image: url("magocena1.gif");
     border-radius: 6px;
 }
 
