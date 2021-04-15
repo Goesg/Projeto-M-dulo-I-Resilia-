@@ -23,6 +23,15 @@
   background-attachment: fixed;
 }
 
+.bgGuerreiroFinal2{
+  background-image: url("guerreiofinal2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
 .bggameover{
   background-image: url("gameover.png");
   background-repeat: no-repeat;
@@ -34,23 +43,23 @@
 
 
 /* !!! cenas e imagens relacionadas a Bruxa !!! */
-.bgBruxairocena1{
-  background-image: url("guerreiroCena1.gif");
+.bgbruxairocena1{
+  background-image: url("bruxaCena1.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.bgBruxacena3{
-  background-image: url("guerreiroCena2.jpg");
+.bgbruxacena3{
+  background-image: url("bruxaCena2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.bgBruxacenaend{
+.bgbruxacenaend{
   background-image: url("guerreiroCenaFinal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,24 +71,24 @@
 
 
 /*!!! cenas e imagens relacionadas ao Mago!!!*/
-.bgMagocena1{
-  background-image: url("guerreiroCena1.gif");
+.bgmagocena1{
+  background-image: url("magoCena1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.bgMagocena3{
-  background-image: url("guerreiroCena2.jpg");
+.bgmagocena3{
+  background-image: url("magoCena2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.bgMagocenaend{
-  background-image: url("guerreiroCenaFinal.jpg");
+.bgmagocenaend{
+  background-image: url("guerreiroFinal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
